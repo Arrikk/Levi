@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    "components/ProfileHeader.jsx",
+    "components/Toggler.jsx",
+    "pages/users/auth/signin.jsx",
+    "pages/users/auth/signup.jsx",
+    "components/Feeds.jsx",
+    "pages/index.jsx",
+    "pages/settings/profile.jsx",
+    "components/Sidebar.jsx",
+    "components/EditUserProfile.jsx",
+    "pages/my/profile.js",
+    "components/TweetBox.jsx",
+    "components/SettingsHeader.jsx"
+  ],
+  "exclude": [
+    "node_modules",
+     ".next"
+  ]
+  // "exclude": ["node_modules", ".next"]
+}
