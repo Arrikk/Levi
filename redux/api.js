@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({ baseURL: 'https://certify.baremind.co.za' })
+const API = axios.create({ baseURL: 'https://certify.baremind.co.za/api' })
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('profile')) {
